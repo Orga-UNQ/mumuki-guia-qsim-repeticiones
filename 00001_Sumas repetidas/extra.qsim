@@ -1,0 +1,9 @@
+
+mulAPorB: MOV R1, 0x0000
+volver: CMP R2, 0x0000
+        JE salir
+        ADD R1, R2
+        SUB R2, 0x0001
+        JMP volver
+salir: RET
+

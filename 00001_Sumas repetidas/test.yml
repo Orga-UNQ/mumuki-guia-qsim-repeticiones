@@ -1,0 +1,11 @@
+examples:
+- name: 'El resultado es correcto'
+  preconditions:
+    memory:
+      'A000': '0004'
+      'B000': '0004'
+  postconditions:
+    equal:
+      'F999': '0010'
+
+
