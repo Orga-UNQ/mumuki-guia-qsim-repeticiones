@@ -1,0 +1,14 @@
+examples:
+- name: 'El resultado es correcto'
+  preconditions:
+    memory:
+      '8765': '0009'
+      '8766': '0008'
+      '8767': '0010'
+    equal:
+      R5: '0002'
+  postconditions:
+    memory:
+      '8765': '0004'
+      '8766': '0004'
+      '8767': '0008'

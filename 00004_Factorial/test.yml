@@ -1,0 +1,8 @@
+examples:
+- name: 'El resultado es correcto'
+  preconditions:
+    equal:
+      R5: '0004'
+  postconditions:
+    equal:
+      R4: '0018'
