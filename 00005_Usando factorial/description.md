@@ -1,0 +1,1 @@
+Utilizá la rutina `factorial` para calcular el factorial de los valores en las celdas `A7A7`,`A7A8`,`A7A9` y `A7AA`, dejando cada resultado en la celda de origen

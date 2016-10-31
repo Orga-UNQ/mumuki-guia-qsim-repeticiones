@@ -1,0 +1,14 @@
+examples:
+- name: 'El resultado es correcto'
+  preconditions:
+    memory:
+      'A7A7': '0004'
+      'A7A8': '0003'
+      'A7A9': '0002'
+      'A7AA': '0001'
+  postconditions:
+    memory:
+      'A7A7': '0018'
+      'A7A8': '0006'
+      'A7A9': '0002'
+      'A7AA': '0001'
